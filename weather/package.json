@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "combine": "cd dist/weather/ && cat polyfills.js runtime.js scripts.js main.js > weather.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
