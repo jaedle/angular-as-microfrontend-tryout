@@ -3,12 +3,14 @@ import {Injector, NgModule, DoBootstrap} from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {createCustomElement} from '@angular/elements';
+import {HttpClientModule} from "@angular/common/http";
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
 })
